@@ -27,5 +27,7 @@
   git config --global user.email johndoe@example.com  
   git config --list
   git config username
+  
+  **Q: How do you get changes made from another machine?**
 
 
