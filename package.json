@@ -4,7 +4,8 @@
   "description": "**Q: how do you create a local repo?**",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "http-server",
+    "reload": "autoreload"
   },
   "repository": {
     "type": "git",
@@ -15,11 +16,10 @@
   "bugs": {
     "url": "https://github.com/abdullah12/frontend-tutorial/issues"
   },
-  "homepage": "https://github.com/abdullah12/frontend-tutorial",
-  "devDependencies": {
-    "live-server": "^1.2.0"
-  },
   "dependencies": {
-    "live-server": "^1.2.0"
+    "autoreload": "0.0.7",
+    "http-server": "^0.11.1",
+    "live-server": "^1.2.0",
+    "serve": "^8.2.0"
   }
 }
