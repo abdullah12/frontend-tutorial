@@ -29,6 +29,7 @@
   git config username
   
   **Q: How do you get changes made from another machine?**
-    git pull
+  
+  git pull
 
 
